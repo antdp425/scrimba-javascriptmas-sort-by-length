@@ -1,5 +1,5 @@
 function sortByLength(strs) {
-   //  write code here.
+   return strs.sort((a,b) => a.length - b.length)
 }
 
 
